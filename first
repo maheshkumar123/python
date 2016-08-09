@@ -1,1 +1,7 @@
 python is programming language.
+This is very flexible language ,we can write programs very easily.
+
+    Python is interpreted
+    Python uses whitespace indentation, rather than curly braces or keywords, to delimit blocks;
+    Python uses the words and, or, not for its boolean operators rather than the symbolic &&, ||, ! used in Java and C.
+    Unlike C, C++ and Java, there is no semicolon in Python.
