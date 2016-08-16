@@ -1,0 +1,11 @@
+x=None
+try:
+    x=open("test.txt","w")
+    x.writelines("python is a open source language \n python is ooplanguage \n python is used for dataanlatics ")
+    print "data stored in file"
+except:
+      print "error occured"
+finally:
+    if x:
+     x.close()
+     print "end"
