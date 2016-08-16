@@ -1,0 +1,13 @@
+x=None
+try:
+    x=open("test.txt")
+    print "file is opened"
+    print x
+    data=x.read()
+    print data
+except:
+    print "error occured"
+finally:
+    if x:
+        x.close()
+        print "file is closed"
